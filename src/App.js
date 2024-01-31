@@ -47,7 +47,7 @@ function App() {
 </Container> 
 </Navbar>
    <Routes>
-    <Route path='/' element = { <Shop/> }/>
+    <Route path='/trapeza.github.io' element = { <Shop/> }/>
     <Route path='/dishes' element = { <Dishes/> }/>
     <Route path="/delivery" element = { <Delivery/> }/>
     <Route path="/cart" element={ <Cart/> }/>
