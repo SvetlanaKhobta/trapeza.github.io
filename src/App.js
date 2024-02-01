@@ -34,7 +34,7 @@ function App() {
          <Router>
    <Navbar expand="lg"  sticky="top" className="navbar bg-body-tertiary  " >
 <Container >
-  <Navbar.Brand ><Link className='link ' to="/trapeza.github.io"> Трапеза</Link></Navbar.Brand>
+  <Navbar.Brand ><Link className='link ' to="/"> Трапеза</Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav " >
     <Nav className="me-auto  "  >
