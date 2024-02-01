@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/trapeza.github.io/static/css/main.6df946d2.css",
-    "main.js": "/trapeza.github.io/static/js/main.bd4a6e68.js",
+    "main.css": "/trapeza.github.io/static/css/main.f01c5a70.css",
+    "main.js": "/trapeza.github.io/static/js/main.407d3afb.js",
     "static/js/787.f79eddce.chunk.js": "/trapeza.github.io/static/js/787.f79eddce.chunk.js",
     "static/media/cart.jpg": "/trapeza.github.io/static/media/cart.db36c202f1130ddaa1d7.jpg",
     "static/media/povar.jpg": "/trapeza.github.io/static/media/povar.66b8ae01480049ffcf5d.jpg",
     "static/media/delivery.jpg": "/trapeza.github.io/static/media/delivery.23041699151dc4512c42.jpg",
     "static/media/plus.png": "/trapeza.github.io/static/media/plus.b9bb0c4f188e27305e45.png",
     "index.html": "/trapeza.github.io/index.html",
-    "main.6df946d2.css.map": "/trapeza.github.io/static/css/main.6df946d2.css.map",
-    "main.bd4a6e68.js.map": "/trapeza.github.io/static/js/main.bd4a6e68.js.map",
+    "main.f01c5a70.css.map": "/trapeza.github.io/static/css/main.f01c5a70.css.map",
+    "main.407d3afb.js.map": "/trapeza.github.io/static/js/main.407d3afb.js.map",
     "787.f79eddce.chunk.js.map": "/trapeza.github.io/static/js/787.f79eddce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6df946d2.css",
-    "static/js/main.bd4a6e68.js"
+    "static/css/main.f01c5a70.css",
+    "static/js/main.407d3afb.js"
   ]
 }
