@@ -23,7 +23,8 @@ import Dishes from './components/dishesComponent/dishes';
 import Shop from './components/shop';
 import Cart from './components/cart/cart';
 import Footer from './components/footer';
-
+import ScrollToTop from './scrollToTop';
+import ScrollToTopButton from './scrollToTopButton';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
     <div> 
        
          <Router>
+         <ScrollToTop />
    <Navbar expand="lg"  sticky="top" className="navbar bg-body-tertiary  " >
 <Container >
   <Navbar.Brand ><Link className='link ' to="/trapeza.github.io"> Трапеза</Link></Navbar.Brand>
@@ -53,10 +55,13 @@ function App() {
     <Route path="/cart" element={ <Cart/> }/>
    </Routes>
    </Router>
- 
    <Footer/>
+   <ScrollToTopButton/>
+ 
    </div>
   ); 
 }
 
 export default App;
+
+

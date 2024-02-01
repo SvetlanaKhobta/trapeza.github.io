@@ -7,10 +7,13 @@ import { getSelectedCategory } from "../../redux/dishesSlice";
 import AllCategories from "../filter/allCategories";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+
+
+
 const Dishes = () => {
 
    const selectedCategory = useSelector(getSelectedCategory);   
-
+   
     return(
         <div >
             
@@ -28,7 +31,9 @@ const Dishes = () => {
  <div className="header">
  <Link className='link back '  to="/cart">Перейти в корзину</Link>
  </div>
- 
+  
+
+
  </div>
         )
 }
