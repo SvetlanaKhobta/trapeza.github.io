@@ -7,7 +7,7 @@ export const slice = createSlice({
     },
     reducers: {
 
-         addItemToCart: (state, action) => {
+        addItemToCart: (state, action) => {
             const timeId = new Date().getTime()
             const newCart=  state.cartItems.findIndex(item => item.dishId === action.payload.dish.id)
             if(newCart === -1){
@@ -23,29 +23,26 @@ export const slice = createSlice({
                 title: "Блюдо добавлено в корзину",
                 showConfirmButton: false,
                 timer: 1000
-              });
-           }
-           
-           else{
+            });
+            }
+
+            else{
             state.cartItems = [...state.cartItems];
             state.cartItems[newCart].quantyti+=action.payload.quantyti;
             state.cartItems[newCart].totalPrice+= action.payload.quantyti * action.payload.dish.price;
-        }
+            }
         Swal.fire({
             position: "center",
             icon: "success",
             title: "добавлено в корзину",
             showConfirmButton: false,
             timer: 1000
-          });
-        }
-        
-        ,
+        });
+        },
         
         removeItemFromCart: (state, action) => {
-            
             state.cartItems = state.cartItems.filter(
-             cartItem => cartItem.id !== action.payload.cartItemId
+            cartItem => cartItem.id !== action.payload.cartItemId
             )
         }
     }}

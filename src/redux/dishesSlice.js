@@ -3,7 +3,6 @@ export const dishesSlice = createSlice({
     name: 'dishes',
     initialState: {
         selectedCategory: "посмотреть все"
-       
     },
     reducers: {
 filterCategory: (state, action) => {
